@@ -3,24 +3,26 @@
 ## Descripción
 En este laboratorio se implementó la carga automática de clases en PHP utilizando Composer y el estándar PSR-4. La idea principal fue dejar de usar 'include' y 'require' manualmente y trabajar con namespaces y autoload para organizar mejor el proyecto.
 
+
 ## Requisitos
 * PHP 8 o superior
 * Composer
 * Git
 
 
-## Instruciones de Instalación
+## Instrucciones de Instalación
 1. Clonar el repositorio:
 git clone https://github.com/siuki22/autoload-psr4.git
 
 2. Abrir la carpeta del proyecto:
 autoload-psr4
 
-4. Generar mediante la terminar de visual el autoload de Composer:
+4. Generar mediante la terminar de visual studio code el autoload de Composer:
 composer dump-autoload
+
 ![dump-autoload](IMG/dump-autoload.png)
 
-5. Ejecutar el proyecto en la terminal de visual:
+6. Ejecutar el proyecto en la terminal de visual:
 php index.php
 
 
@@ -55,6 +57,7 @@ php index.php
 
 Resultado obtenido:
 Hola desde PSR-4
+
 ![ejecucion](IMG/ejecucion.png)
 
 
