@@ -1,0 +1,14 @@
+{
+    "name": "guillermo/autoload-psr4",
+    "autoload": {
+        "psr-4": {
+            "Guillermo\\AutoloadPsr4\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "N"
+        }
+    ],
+    "require": {}
+}
